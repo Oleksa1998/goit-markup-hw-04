@@ -126,6 +126,16 @@ letter-spacing: 0.02em;
   background-color:  #2F303A;
  color: var(--header-color);
  padding: 200px 0px;
+ background-image: linear-gradient(
+   rgba(47, 48, 58, 0.4),
+   rgba(47, 48, 58, 0.4)
+   ),
+ url(../images/hero-bg.jpg);
+ background-repeat: no-repeat; 
+ background-position: center;
+ background-size: cover;
+ max-width: 1600px;
+ margin: 0 auto;
 }
 .hero-text {
 font-weight: 900;
@@ -220,7 +230,21 @@ color: var(--title-color);
   .team-list {
  display: flex;
  margin-top: 50px;
-  }   
+  } 
+  .master-soc-link {
+   width: 44px; 
+   height: 44px;
+   background-color: #AFB1B8;
+   border-radius: 50%;
+   display: block;    
+  }  
+  .master-soc {
+    display: flex;
+    justify-content: center;
+  }
+  .master-soc-item + .master-soc-item {
+    margin-left: 10px;
+  }
   .team-card {
 background-color: #ffffff;
   }
@@ -245,6 +269,7 @@ background-color: #ffffff;
   letter-spacing: 0.03em;
   color: var(--main-content-color);
   margin-top: 10px;
+  margin-bottom: 16px;
 }
 /* --------------------------------footer-------------------- */
 .footer {
