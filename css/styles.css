@@ -234,10 +234,21 @@ color: var(--title-color);
   .master-soc-link {
    width: 44px; 
    height: 44px;
-   background-color: #AFB1B8;
+   background-color: #fffff;
    border-radius: 50%;
-   display: block;    
+   display: flex;
+   justify-content: center;
+   align-items: center;    
   }  
+  .master-soc-icon {
+    fill:#AFB1B8;
+  }
+  .master-soc-link:hover, .master-soc-link:focus {
+background-color: var(--accent-color);
+  }
+  .master-soc-link:hover .master-soc-icon {
+    fill:var(--header-color);
+  }
   .master-soc {
     display: flex;
     justify-content: center;
@@ -314,7 +325,20 @@ color: rgba(255, 255, 255, 0.6);
   .contacts:focus {
     color: var(--header-color);
   } 
+  .footer {
+    display: flex;
+  }
 
+.footer-title {
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+text-align: center;
+
+
+}
   /*------------- Main Portfolio----------------------- */
   .portfolio {
    color: var(--title-color)
