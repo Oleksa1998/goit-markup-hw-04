@@ -107,6 +107,7 @@ color: var(--title-color) ;
 .contact-data:not(:last-child) {
   margin-right: 50px;
 }
+
 .contact-link {
   font-weight: 500;
   font-size: 14px;
@@ -120,6 +121,13 @@ letter-spacing: 0.02em;
 }
 .curent {
   color:var(--accent-color)
+}
+.mail-link:hover 
+.mail-link:focus {
+
+}
+.mail-icon {
+  fill: var(--contact-color);
 }
 /* hero */
 .hero {
@@ -325,20 +333,46 @@ color: rgba(255, 255, 255, 0.6);
   .contacts:focus {
     color: var(--header-color);
   } 
-  .footer {
+  .footer .container {
     display: flex;
   }
-
+  .footer-soc {
+    margin-left: 70px;
+   margin-top: 12px;
+  }
 .footer-title {
 font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
-text-align: center;
-
-
 }
+.footer-soc-list {
+  margin-top: 32px;
+  display: flex;
+}
+.footer-soc-link {
+  width: 44px; 
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+ }  
+ .footer-soc-icon {
+   fill:#FFFFFF;
+ }
+ .footer-soc-link:hover, .footer-soc-link:focus {
+background-color: var(--accent-color);
+ }
+ .footer-soc-link:hover .master-soc-icon {
+   fill:var(--header-color);
+ }
+ .footer-soc-item + .footer-soc-item {
+   margin-left: 10px;
+
+
   /*------------- Main Portfolio----------------------- */
   .portfolio {
    color: var(--title-color)
