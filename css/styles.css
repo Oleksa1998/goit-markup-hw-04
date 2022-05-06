@@ -107,27 +107,19 @@ color: var(--title-color) ;
 .contact-data:not(:last-child) {
   margin-right: 50px;
 }
-
 .contact-link {
   font-weight: 500;
   font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-  color:var(--contact-color);
+  /* color:var(--contact-color); */
 }
 .contact-link:hover, 
 .contact-link:focus {
-  color:var(--accent-color);
+  /* color:var(--accent-color); */
 }
 .curent {
-  color:var(--accent-color)
-}
-.mail-link:hover 
-.mail-link:focus {
-
-}
-.mail-icon {
-  fill: var(--contact-color);
+/* color:var(--accent-color) */
 }
 /* hero */
 .hero {
