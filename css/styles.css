@@ -112,15 +112,23 @@ color: var(--title-color) ;
   font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-  /* color:var(--contact-color); */
+  color:var(--contact-color);
+  margin-left: 10px;
+}
+.contact-icon {
+  fill: var(--contact-color);
 }
 .contact-link:hover, 
 .contact-link:focus {
-  /* color:var(--accent-color); */
+  color:var(--accent-color);
+  fill: var(--accent-color);
 }
-.curent {
-/* color:var(--accent-color) */
+.contact-icon + .contact-link {
+  margin-left: 10px;
 }
+/* .curent {
+color:var(--accent-color)
+} */
 /* hero */
 .hero {
   background-color:  #2F303A;
@@ -177,46 +185,20 @@ margin-right: auto;
 }
 .features {
   display: flex;
-
 }
-.feature-item {
+.features-picture {
+  display: flex;
   width: 270px;
   height: 120px;
+  justify-content: center;
+  align-items: center;  
 background-color: var(--background-color); 
 }
-.feature-item {
-  justify-content: center;
-}
-.feature-link {
-  border-radius: ;
-}
-.feature-icon {
-}
-/* .master-soc-link {
-  width: 44px; 
-  height: 44px;
-  background-color: #fffff;
-  border-radius: 50%;
+.features-icon { 
   display: flex;
   justify-content: center;
-  align-items: center;    
- }  
- .master-soc-icon {
-   fill:#AFB1B8;
- }
- .master-soc-link:hover, .master-soc-link:focus {
-background-color: var(--accent-color);
- }
- .master-soc-link:hover .master-soc-icon {
-   fill:var(--header-color);
- }
- .master-soc {
-   display: flex;
-   justify-content: center;
- }
- .master-soc-item + .master-soc-item {
-   margin-left: 10px;
- } */
+  align-items: center;   
+}
 .features-list {
   display: flex;
 }
@@ -227,6 +209,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--title-color);
+margin-top: 30px;
 }
 .features-item:not(:last-child) {
   margin-right: 30px;
@@ -324,6 +307,43 @@ background-color: #ffffff;
   margin-top: 10px;
   margin-bottom: 16px;
 }
+
+.client-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16px;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+.client-list {
+  display: flex;
+  margin-top: 50px;
+  }
+.client-logo {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;  
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+.client-logo:not(:first-child) {
+  margin-left: 30px;
+}
+.client-logo:hover,
+.client-logo:focus {
+    border-color: var(--accent-color)
+  fill:currentColor;
+}
+.client-icon {
+  fill: #AFB1B8;
+}
+/* .client-link:hover
+.client-link:focus {
+} */
+
 /* --------------------------------footer-------------------- */
 .footer {
   background-color:  #2F303A;
