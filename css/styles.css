@@ -121,7 +121,7 @@ letter-spacing: 0.02em;
 .contact-link:hover, 
 .contact-link:focus {
   color:var(--accent-color);
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 .contact-icon + .contact-link {
   margin-left: 10px;
