@@ -113,7 +113,7 @@ color: var(--title-color) ;
 line-height: 1.14;
 letter-spacing: 0.02em;
   color:var(--contact-color);
-  margin-left: 10px;
+ 
 }
 .contact-icon {
   fill: var(--contact-color);
@@ -124,11 +124,11 @@ letter-spacing: 0.02em;
   fill: currentColor;
 }
 .contact-icon + .contact-link {
-  margin-left: 10px;
+  margin-right: 10px;
 }
-/* .curent {
+.curent {
 color:var(--accent-color)
-} */
+}
 /* hero */
 .hero {
   background-color:  #2F303A;
