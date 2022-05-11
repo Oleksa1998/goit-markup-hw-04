@@ -406,6 +406,9 @@ color: #FFFFFF;
   margin-top: 20px;
   display: flex;
 }
+.footer-soc-item:not(:first-child) {
+padding-left: 10px;
+}
 .footer-soc-link {
   width: 44px; 
   height: 44px;
