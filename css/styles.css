@@ -170,9 +170,11 @@ color: var(--header-color);
 background-color: var(--btn-color)
 }
 .hero-btn {
+  padding:  10px 32px;
 margin-top: 30px;
 margin-left: auto;
 margin-right: auto;
+border: transparent;
 }
 
 .hero-btn:hover, .hero-btn:focus-visible {
