@@ -410,7 +410,7 @@ color: #FFFFFF;
   display: flex;
 }
 .footer-soc-item:not(:first-child) {
-padding-left: 10px;
+margin-left: 10px;
 }
 .footer-soc-link {
   width: 44px; 
@@ -458,6 +458,7 @@ background-color: var(--accent-color);
       justify-content: center;
     }
  .button {
+   padding: 6px 22px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -478,6 +479,8 @@ background-color: var(--accent-color);
   .button:hover {
     background:var(--btn-color);
     color: var(--background-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
   }
   .button:focus {
     background:var(--btn-color);
@@ -504,7 +507,9 @@ margin-left: -30px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-data {
-  border-right: 1px solid #EEEEEE;
+  border: 1px solid #EEEEEE;
+  border-top: transparent;
+
   padding: 20px 24px;
 }
 .project-title {
